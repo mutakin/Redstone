@@ -1,0 +1,52 @@
+/*give background image into jumbotron*/
+
+.jumbotron-fluid{
+	background-image: url('../images/background.jpg');
+	background-size: cover;
+	background-position: center;
+	height: 660px;
+}
+
+.nav-link:hover{
+	color: red!important;
+}
+
+.heading-text{
+	box-sizing: border-box;
+	position: relative;
+	top: 200px;
+	font-family:Segoe Print,sans-serif;
+	font-weight: bold;
+	font-size: 6rem;
+	color: #fff;
+	text-shadow: 3px 4px 1px #000;
+}
+
+.button-cek-menu{
+	position: relative;
+	top: 250px;
+	font-family: Segoe Print;
+	box-shadow: 3px 5px 5px #000;
+}
+
+
+
+
+@media (max-width: 576px) { 
+	.navbar{
+		background: #343a40;
+	}
+	.heading-text{
+		font-size:2rem;
+	}
+
+	.jumbotron-fluid{
+		background-position: center;
+		height: 450px;
+	}
+
+	.button-cek-menu{
+		border:2px solid #fff;
+		left: 30%;
+	}
+}
