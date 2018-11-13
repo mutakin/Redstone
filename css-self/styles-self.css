@@ -15,7 +15,7 @@
 	box-sizing: border-box;
 	position: relative;
 	top: 200px;
-	font-family:Segoe Print,sans-serif;
+	font-family:'Lobster',"Sagoe Print";
 	font-weight: bold;
 	font-size: 6rem;
 	color: #fff;
@@ -25,19 +25,33 @@
 .button-cek-menu{
 	position: relative;
 	top: 250px;
-	font-family: Segoe Print;
+	left:40%;
+	width: 200px;
+	font-family: 'Lobster','Sagoe Print';
 	box-shadow: 3px 5px 5px #000;
 }
 
 
 
+/*main style*/
+
+article h3{
+	font-family: 'Lobster', cursive;
+	text-transform: lowercase;
+}
+
+.nameText{
+	font-family: 'Lobset',cursive;
+	font-size:19px;
+}
 
 @media (max-width: 576px) { 
 	.navbar{
 		background: #343a40;
 	}
 	.heading-text{
-		font-size:2rem;
+		font-size:3rem;
+		text-align:center;
 	}
 
 	.jumbotron-fluid{
@@ -46,7 +60,7 @@
 	}
 
 	.button-cek-menu{
-		border:2px solid #fff;
-		left: 30%;
+		left: 25%;
+		width: large;
 	}
 }

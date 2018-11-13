@@ -9,6 +9,8 @@
     <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css-self/styles-self.css">
+    <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <title>Redstone | Mie Ayam & Mie Bakso</title>
   </head>
   <body>
@@ -38,7 +40,7 @@
 
         <article class="container">
             <h1 class="heading-text">Selamat Datang Di Redstone</h1>
-            <a href="#" class="btn btn-danger btn-lg button-cek-menu">Cek Menu</a>
+            <a href="#" class="btn btn-light btn-lg button-cek-menu">Cek Menu</a>
         </article>
 
     </div>
@@ -46,7 +48,7 @@
 
     <main>
         <article class="container">
-            <h3 class="text-center">Menu Favorit</h3>
+            <h3 class="text-center">MENU FAVORIT</h3>
             <hr style="width: 250px;border-color: red;">
             <section>
                 <div class="row">
@@ -72,8 +74,8 @@
             </section>
         </article>
 
-        <article class="container-fluid bg-light">
-            <h3 class="text-center">Menu Makanan</h3>
+        <article class="container-fluid bg-light p-5">
+            <h3 class="text-center">MENU MAKANAN</h3>
             <hr style="width: 250px;border-color: red;">
             <section class="container">
                 <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
@@ -99,7 +101,60 @@
                 </div>
             </section>
         </article>
+
+
+        <article class="container mb-5">
+            <h3 class="text-center mt-5">KOKI KAMI</h3>
+            <hr style="width: 250px;border-color: red;">
+            <section>
+                <div class="row">
+                    <div class="col-lg-4 offset-lg-2 text-center">
+                        <img src="images/t1.jpg" class="img-thumbnail foto-koki" alt="profil koki">
+                        <p class="nameText">Teh Indah</p>
+                    </div>
+                    <div class="col-lg-4 text-center">
+                        <img src="images/t2.jpg" class="img-thumbnail foto-koki" alt="profil koki">
+                        <p class="nameText">A Bondan</p>
+                    </div>
+                </div>
+            </section>
+        </article>
+
+
+        <article class="container-fluid bg-light">
+            <h3 class="text-center">KONTAK KAMI</h3>
+            <hr style="width: 250px;border-color: red;">
+            <section class="container mt-4">
+                <div class="row">
+                        <div class="col-lg-8 offset-lg-2 pl-5 pr-5">
+                            <form action="" method="post">
+                                <div class="form-group">
+                                    <input type="text" name="nama" placeholder="Nama" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" name="email" placeholder="Email" class="form-control" required>
+                                </div>
+                                <div class="form-group">
+                                   <textarea rows="5" class="pesan form-control" required minlength="10">
+
+                                   </textarea>
+                                </div>
+                                <div class="form-group">
+                                    <button type="submit" name="kirim" class="btn btn-danger btn-block text-white">Kirim</button>
+                                </div>
+                            </form>    
+                        </div>
+                    
+                </div>
+            </section>
+        </article>
     </main>
+
+    <footer class="container-fluid bg-danger p-3">
+        <div class="col-lg">
+            <p class="text-center text-white"><span> &copy; </span>Copyright 2018 All Rights Reserved | Made with love By Our Team</p>
+        </div>
+    </footer>
     
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
